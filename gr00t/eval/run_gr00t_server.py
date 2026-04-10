@@ -49,6 +49,16 @@ class ServerConfig:
     use_sim_policy_wrapper: bool = False
     """Whether to use the sim policy wrapper"""
 
+    # SDE configs
+    use_sde: bool = False
+    """Whether to use SDE (stochastic) sampling instead of ODE (deterministic)"""
+
+    noise_level: float = 0.5
+    """SDE diffusion noise strength (only used when use_sde=True)"""
+
+    num_inference_timesteps: int | None = None
+    """Number of denoising steps for SDE (None uses model default, only used when use_sde=True)"""
+
 
 def main(config: ServerConfig):
     print("Starting GR00T inference server...")
@@ -64,12 +74,25 @@ def main(config: ServerConfig):
 
     # Create and start the server
     if config.model_path is not None:
-        policy = Gr00tPolicy(
-            embodiment_tag=config.embodiment_tag,
-            model_path=config.model_path,
-            device=config.device,
-            strict=config.strict,
-        )
+        if config.use_sde:
+            from gr00t.policy.gr00t_sde_policy import Gr00tSDEPolicy
+
+            policy = Gr00tSDEPolicy(
+                embodiment_tag=config.embodiment_tag,
+                model_path=config.model_path,
+                device=config.device,
+                noise_level=config.noise_level,
+                num_inference_timesteps=config.num_inference_timesteps,
+                strict=config.strict,
+            )
+            print(f"  SDE mode: noise_level={config.noise_level}")
+        else:
+            policy = Gr00tPolicy(
+                embodiment_tag=config.embodiment_tag,
+                model_path=config.model_path,
+                device=config.device,
+                strict=config.strict,
+            )
     elif config.dataset_path is not None:
         if config.modality_config_path is None:
             from gr00t.configs.data.embodiment_configs import MODALITY_CONFIGS

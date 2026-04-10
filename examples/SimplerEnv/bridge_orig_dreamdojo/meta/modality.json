@@ -1,0 +1,61 @@
+{
+  "state": {
+    "eef_pos": {
+      "original_key": "observation.state",
+      "start": 0,
+      "end": 3,
+      "rotation_type": null,
+      "absolute": true,
+      "dtype": "float64",
+      "range": null
+    },
+    "eef_rot": {
+      "original_key": "observation.state",
+      "start": 3,
+      "end": 6,
+      "rotation_type": null,
+      "absolute": true,
+      "dtype": "float64",
+      "range": null
+    },
+    "pad": {
+      "original_key": "observation.state",
+      "start": 6,
+      "end": 7,
+      "rotation_type": null,
+      "absolute": true,
+      "dtype": "float64",
+      "range": null
+    },
+    "gripper": {
+      "original_key": "observation.state",
+      "start": 7,
+      "end": 8,
+      "rotation_type": null,
+      "absolute": true,
+      "dtype": "float64",
+      "range": null
+    }
+  },
+  "action": {
+    "arm": {
+      "original_key": "action",
+      "start": 0,
+      "end": 7,
+      "rotation_type": null,
+      "absolute": true,
+      "dtype": "float64",
+      "range": null
+    }
+  },
+  "video": {
+    "image_0": {
+      "original_key": "observation.images.image_0"
+    }
+  },
+  "annotation": {
+    "language.task": {
+      "original_key": "task_index"
+    }
+  }
+}

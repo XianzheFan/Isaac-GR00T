@@ -1,0 +1,599 @@
+{"task_index": 0, "task": "pick rxbar chocolate from bottom drawer and place on counter"}
+{"task_index": 1, "task": "close middle drawer"}
+{"task_index": 2, "task": "pick apple from white bowl"}
+{"task_index": 3, "task": "move coke can near water bottle"}
+{"task_index": 4, "task": "pick brown chip bag from top drawer and place on counter"}
+{"task_index": 5, "task": "pick green jalapeno chip bag from bottom drawer and place on counter"}
+{"task_index": 6, "task": "pick sponge from top drawer and place on counter"}
+{"task_index": 7, "task": "open middle drawer"}
+{"task_index": 8, "task": "pick 7up can from bottom shelf of fridge"}
+{"task_index": 9, "task": "knock orange can over"}
+{"task_index": 10, "task": "pick rxbar chocolate"}
+{"task_index": 11, "task": "pick apple"}
+{"task_index": 12, "task": "move green rice chip bag near brown chip bag"}
+{"task_index": 13, "task": "pick banana from white bowl"}
+{"task_index": 14, "task": "pick sponge from middle drawer and place on counter"}
+{"task_index": 15, "task": "place coke can into bottom drawer"}
+{"task_index": 16, "task": "place water bottle upright"}
+{"task_index": 17, "task": "place green jalapeno chip bag into top drawer"}
+{"task_index": 18, "task": "open top drawer"}
+{"task_index": 19, "task": "pick water bottle"}
+{"task_index": 20, "task": "pick blue chip bag from bottom drawer and place on counter"}
+{"task_index": 21, "task": "move pepsi can near 7up can"}
+{"task_index": 22, "task": "close bottom drawer"}
+{"task_index": 23, "task": "place apple into top drawer"}
+{"task_index": 24, "task": "move water bottle near rxbar chocolate"}
+{"task_index": 25, "task": "move pepsi can near blue plastic bottle"}
+{"task_index": 26, "task": "place redbull can into top drawer"}
+{"task_index": 27, "task": "pick pepsi can from top drawer and place on counter"}
+{"task_index": 28, "task": "place redbull can upright"}
+{"task_index": 29, "task": "move green rice chip bag near orange"}
+{"task_index": 30, "task": "place green can into top drawer"}
+{"task_index": 31, "task": "pick rxbar blueberry"}
+{"task_index": 32, "task": "pick orange from top drawer and place on counter"}
+{"task_index": 33, "task": "place green jalapeno chip bag into middle drawer"}
+{"task_index": 34, "task": "place rxbar chocolate into middle drawer"}
+{"task_index": 35, "task": "place coke can into middle drawer"}
+{"task_index": 36, "task": "knock green can over"}
+{"task_index": 37, "task": "move green rice chip bag near rxbar blueberry"}
+{"task_index": 38, "task": "move green rice chip bag near apple"}
+{"task_index": 39, "task": "knock water bottle over"}
+{"task_index": 40, "task": "move redbull can near 7up can"}
+{"task_index": 41, "task": "pick blue plastic bottle"}
+{"task_index": 42, "task": "move water bottle near paper bowl"}
+{"task_index": 43, "task": "pick orange can from middle shelf of fridge"}
+{"task_index": 44, "task": "move green rice chip bag near coke can"}
+{"task_index": 45, "task": "open bottom drawer"}
+{"task_index": 46, "task": "move coke can near green rice chip bag"}
+{"task_index": 47, "task": "pick brown chip bag"}
+{"task_index": 48, "task": "pick green can from bottom drawer and place on counter"}
+{"task_index": 49, "task": "move orange near green jalapeno chip bag"}
+{"task_index": 50, "task": "move pepsi can near water bottle"}
+{"task_index": 51, "task": "move apple near white bowl"}
+{"task_index": 52, "task": "move paper bowl near orange can"}
+{"task_index": 53, "task": "pick green jalapeno chip bag from middle drawer and place on counter"}
+{"task_index": 54, "task": "move green jalapeno chip bag near water bottle"}
+{"task_index": 55, "task": "move green jalapeno chip bag near coke can"}
+{"task_index": 56, "task": "pick pepsi can"}
+{"task_index": 57, "task": "pick green rice chip bag from top drawer and place on counter"}
+{"task_index": 58, "task": "pick orange from white bowl"}
+{"task_index": 59, "task": "move sponge near redbull can"}
+{"task_index": 60, "task": "move paper bowl near coke can"}
+{"task_index": 61, "task": "pick green rice chip bag"}
+{"task_index": 62, "task": "move blue chip bag near pepsi can"}
+{"task_index": 63, "task": "move orange near green rice chip bag"}
+{"task_index": 64, "task": "knock blue plastic bottle over"}
+{"task_index": 65, "task": "pick rxbar chocolate from middle drawer and place on counter"}
+{"task_index": 66, "task": "place pepsi can upright"}
+{"task_index": 67, "task": "move brown chip bag near green jalapeno chip bag"}
+{"task_index": 68, "task": "place 7up can into top drawer"}
+{"task_index": 69, "task": "place green rice chip bag into middle drawer"}
+{"task_index": 70, "task": "pick blue plastic bottle from middle drawer and place on counter"}
+{"task_index": 71, "task": "pick 7up can from middle drawer and place on counter"}
+{"task_index": 72, "task": "move pepsi can near orange"}
+{"task_index": 73, "task": "place redbull can into middle drawer"}
+{"task_index": 74, "task": "place blue plastic bottle into bottom drawer"}
+{"task_index": 75, "task": "place water bottle into top drawer"}
+{"task_index": 76, "task": "move orange near redbull can"}
+{"task_index": 77, "task": "pick rxbar chocolate from top drawer and place on counter"}
+{"task_index": 78, "task": "move apple near pepsi can"}
+{"task_index": 79, "task": "pick sponge"}
+{"task_index": 80, "task": "move water bottle near orange"}
+{"task_index": 81, "task": "close top drawer"}
+{"task_index": 82, "task": "move brown chip bag near blue chip bag"}
+{"task_index": 83, "task": "pick pepsi can from middle drawer and place on counter"}
+{"task_index": 84, "task": "move green jalapeno chip bag near sponge"}
+{"task_index": 85, "task": "place blue plastic bottle upright"}
+{"task_index": 86, "task": "pick 7up can from top shelf of fridge"}
+{"task_index": 87, "task": "move blue plastic bottle near redbull can"}
+{"task_index": 88, "task": "move blue plastic bottle near rxbar chocolate"}
+{"task_index": 89, "task": "move sponge near 7up can"}
+{"task_index": 90, "task": "pick water bottle from middle drawer and place on counter"}
+{"task_index": 91, "task": "move blue plastic bottle near green rice chip bag"}
+{"task_index": 92, "task": "move rxbar chocolate near redbull can"}
+{"task_index": 93, "task": "move pepsi can near sponge"}
+{"task_index": 94, "task": "move orange near rxbar blueberry"}
+{"task_index": 95, "task": "move apple near blue chip bag"}
+{"task_index": 96, "task": "pick green jalapeno chip bag from top drawer and place on counter"}
+{"task_index": 97, "task": "place orange can into top drawer"}
+{"task_index": 98, "task": "place 7up can into middle drawer"}
+{"task_index": 99, "task": "place blue chip bag into middle drawer"}
+{"task_index": 100, "task": "move blue chip bag near water bottle"}
+{"task_index": 101, "task": "place apple into bottom drawer"}
+{"task_index": 102, "task": "move pepsi can near green jalapeno chip bag"}
+{"task_index": 103, "task": "pick orange"}
+{"task_index": 104, "task": "pick green can"}
+{"task_index": 105, "task": "move blue plastic bottle near white bowl"}
+{"task_index": 106, "task": "place water bottle into middle drawer"}
+{"task_index": 107, "task": "knock coke can over"}
+{"task_index": 108, "task": "pick redbull can"}
+{"task_index": 109, "task": "move pepsi can near orange can"}
+{"task_index": 110, "task": "move coke can near blue plastic bottle"}
+{"task_index": 111, "task": "knock redbull can over"}
+{"task_index": 112, "task": "place green can upright"}
+{"task_index": 113, "task": "pick orange from middle drawer and place on counter"}
+{"task_index": 114, "task": "move orange near brown chip bag"}
+{"task_index": 115, "task": "place coke can upright"}
+{"task_index": 116, "task": "place brown chip bag into bottom drawer"}
+{"task_index": 117, "task": "move green can near apple"}
+{"task_index": 118, "task": "move orange near orange can"}
+{"task_index": 119, "task": "place blue plastic bottle into middle drawer"}
+{"task_index": 120, "task": "move redbull can near green rice chip bag"}
+{"task_index": 121, "task": "place blue chip bag into top drawer"}
+{"task_index": 122, "task": "open right fridge door"}
+{"task_index": 123, "task": "pick coke can from bottom shelf of fridge "}
+{"task_index": 124, "task": "place 7up can into white bowl"}
+{"task_index": 125, "task": "move brown chip bag near rxbar chocolate"}
+{"task_index": 126, "task": "move white bowl near orange"}
+{"task_index": 127, "task": "move blue plastic bottle near brown chip bag"}
+{"task_index": 128, "task": "pick green jalapeno chip bag"}
+{"task_index": 129, "task": "move green rice chip bag near orange can"}
+{"task_index": 130, "task": "knock 7up can over"}
+{"task_index": 131, "task": "move green jalapeno chip bag near green rice chip bag"}
+{"task_index": 132, "task": "move coke can near pepsi can"}
+{"task_index": 133, "task": "place orange into top drawer"}
+{"task_index": 134, "task": "move apple near coke can"}
+{"task_index": 135, "task": "move sponge near brown chip bag"}
+{"task_index": 136, "task": "pick blue chip bag from top drawer and place on counter"}
+{"task_index": 137, "task": "place rxbar blueberry into middle drawer"}
+{"task_index": 138, "task": "pick water bottle from bottom shelf of fridge "}
+{"task_index": 139, "task": "move blue plastic bottle near orange"}
+{"task_index": 140, "task": "pick pepsi can from top shelf of fridge"}
+{"task_index": 141, "task": "place apple into middle drawer"}
+{"task_index": 142, "task": "pick green can from middle drawer and place on counter"}
+{"task_index": 143, "task": "place orange can upright"}
+{"task_index": 144, "task": "pick coke can from middle drawer and place on counter"}
+{"task_index": 145, "task": "move blue plastic bottle near blue chip bag"}
+{"task_index": 146, "task": "knock pepsi can over"}
+{"task_index": 147, "task": "move rxbar blueberry near redbull can"}
+{"task_index": 148, "task": "move orange near 7up can"}
+{"task_index": 149, "task": "move rxbar blueberry near brown chip bag"}
+{"task_index": 150, "task": "pick apple from middle drawer and place on counter"}
+{"task_index": 151, "task": "place 7up can upright"}
+{"task_index": 152, "task": "open left fridge door"}
+{"task_index": 153, "task": "move white bowl near water bottle"}
+{"task_index": 154, "task": "place orange can into bottom drawer"}
+{"task_index": 155, "task": "move green rice chip bag near blue plastic bottle"}
+{"task_index": 156, "task": "move rxbar blueberry near orange can"}
+{"task_index": 157, "task": "move coke can near 7up can"}
+{"task_index": 158, "task": "pick 7up can from top drawer and place on counter"}
+{"task_index": 159, "task": "move sponge near green can"}
+{"task_index": 160, "task": "place rxbar blueberry into top drawer"}
+{"task_index": 161, "task": "move coke can near orange"}
+{"task_index": 162, "task": "pick redbull can from bottom shelf of fridge"}
+{"task_index": 163, "task": "move blue plastic bottle near sponge"}
+{"task_index": 164, "task": "move coke can near blue chip bag"}
+{"task_index": 165, "task": "move green can near sponge"}
+{"task_index": 166, "task": "place orange can into middle drawer"}
+{"task_index": 167, "task": "place rxbar chocolate into bottom drawer"}
+{"task_index": 168, "task": "pick water bottle from bottom drawer and place on counter"}
+{"task_index": 169, "task": "move blue chip bag near rxbar chocolate"}
+{"task_index": 170, "task": "move 7up can near green jalapeno chip bag"}
+{"task_index": 171, "task": "move apple near rxbar blueberry"}
+{"task_index": 172, "task": "pick orange can from bottom drawer and place on counter"}
+{"task_index": 173, "task": "pick rxbar blueberry from middle drawer and place on counter"}
+{"task_index": 174, "task": "move green rice chip bag near water bottle"}
+{"task_index": 175, "task": "move orange can near 7up can"}
+{"task_index": 176, "task": "move orange can near rxbar blueberry"}
+{"task_index": 177, "task": "move orange near rxbar chocolate"}
+{"task_index": 178, "task": "pick green rice chip bag from bottom drawer and place on counter"}
+{"task_index": 179, "task": "move green rice chip bag near sponge"}
+{"task_index": 180, "task": "pick orange can"}
+{"task_index": 181, "task": "place pepsi can into bottom drawer"}
+{"task_index": 182, "task": "move green rice chip bag near rxbar chocolate"}
+{"task_index": 183, "task": "move redbull can near green can"}
+{"task_index": 184, "task": "move apple near green can"}
+{"task_index": 185, "task": "pick apple from top drawer and place on counter"}
+{"task_index": 186, "task": "move rxbar chocolate near blue plastic bottle"}
+{"task_index": 187, "task": "place orange into middle drawer"}
+{"task_index": 188, "task": "move orange can near orange"}
+{"task_index": 189, "task": "pick orange can from middle drawer and place on counter"}
+{"task_index": 190, "task": "pick brown chip bag from middle drawer and place on counter"}
+{"task_index": 191, "task": "move orange near green can"}
+{"task_index": 192, "task": "move green can near rxbar blueberry"}
+{"task_index": 193, "task": "pick green can from bottom shelf of fridge"}
+{"task_index": 194, "task": "close right fridge door"}
+{"task_index": 195, "task": "pick rxbar blueberry from top drawer and place on counter"}
+{"task_index": 196, "task": "place water bottle into bottom drawer"}
+{"task_index": 197, "task": "pick coke can"}
+{"task_index": 198, "task": "pick blue chip bag"}
+{"task_index": 199, "task": "pick pepsi can from bottom drawer and place on counter"}
+{"task_index": 200, "task": "place coke can into white bowl"}
+{"task_index": 201, "task": "place rxbar blueberry into bottom drawer"}
+{"task_index": 202, "task": "move rxbar chocolate near coke can"}
+{"task_index": 203, "task": "move green can near water bottle"}
+{"task_index": 204, "task": "move rxbar blueberry near green jalapeno chip bag"}
+{"task_index": 205, "task": "pick coke can from top shelf of fridge"}
+{"task_index": 206, "task": "move sponge near orange can"}
+{"task_index": 207, "task": "move green rice chip bag near redbull can"}
+{"task_index": 208, "task": "move water bottle near coke can"}
+{"task_index": 209, "task": "move rxbar chocolate near water bottle"}
+{"task_index": 210, "task": "move rxbar chocolate near sponge"}
+{"task_index": 211, "task": "place green rice chip bag into bottom drawer"}
+{"task_index": 212, "task": "pick apple from bottom drawer and place on counter"}
+{"task_index": 213, "task": "move redbull can near pepsi can"}
+{"task_index": 214, "task": "move rxbar blueberry near green can"}
+{"task_index": 215, "task": "pick blue plastic bottle from top drawer and place on counter"}
+{"task_index": 216, "task": "move redbull can near blue chip bag"}
+{"task_index": 217, "task": "move rxbar blueberry near orange"}
+{"task_index": 218, "task": "move redbull can near blue plastic bottle"}
+{"task_index": 219, "task": "pick orange can from top drawer and place on counter"}
+{"task_index": 220, "task": "pick brown chip bag from bottom drawer and place on counter"}
+{"task_index": 221, "task": "move sponge near apple"}
+{"task_index": 222, "task": "pick 7up can"}
+{"task_index": 223, "task": "place orange into bottom drawer"}
+{"task_index": 224, "task": "move green jalapeno chip bag near pepsi can"}
+{"task_index": 225, "task": "move rxbar blueberry near blue plastic bottle"}
+{"task_index": 226, "task": "move green can near blue chip bag"}
+{"task_index": 227, "task": "move sponge near blue plastic bottle"}
+{"task_index": 228, "task": "move water bottle near green jalapeno chip bag"}
+{"task_index": 229, "task": "place green rice chip bag into top drawer"}
+{"task_index": 230, "task": "move orange can near coke can"}
+{"task_index": 231, "task": "pick green can from top shelf of fridge"}
+{"task_index": 232, "task": "move brown chip bag near green rice chip bag"}
+{"task_index": 233, "task": "move blue plastic bottle near rxbar blueberry"}
+{"task_index": 234, "task": "move orange can near green can"}
+{"task_index": 235, "task": "move orange near blue plastic bottle"}
+{"task_index": 236, "task": "place blue plastic bottle into white bowl"}
+{"task_index": 237, "task": "move green jalapeno chip bag near rxbar chocolate"}
+{"task_index": 238, "task": "move rxbar chocolate near green jalapeno chip bag"}
+{"task_index": 239, "task": "move green rice chip bag near blue chip bag"}
+{"task_index": 240, "task": "move rxbar blueberry near sponge"}
+{"task_index": 241, "task": "move apple near sponge"}
+{"task_index": 242, "task": "move green can near orange"}
+{"task_index": 243, "task": "move water bottle near 7up can"}
+{"task_index": 244, "task": "move 7up can near apple"}
+{"task_index": 245, "task": "move sponge near green rice chip bag"}
+{"task_index": 246, "task": "pick blue water bottle from middle shelf of fridge "}
+{"task_index": 247, "task": "move pepsi can near apple"}
+{"task_index": 248, "task": "move blue plastic bottle near 7up can"}
+{"task_index": 249, "task": "place brown chip bag into middle drawer"}
+{"task_index": 250, "task": "move blue chip bag near 7up can"}
+{"task_index": 251, "task": "pick coke can from bottom shelf of fridge"}
+{"task_index": 252, "task": "pick water bottle from middle shelf of fridge"}
+{"task_index": 253, "task": "pick water bottle from top shelf of fridge"}
+{"task_index": 254, "task": "place coke can into top drawer"}
+{"task_index": 255, "task": "place sponge into middle drawer"}
+{"task_index": 256, "task": "place brown chip bag into paper bowl"}
+{"task_index": 257, "task": "pick 7up can from bottom drawer and place on counter"}
+{"task_index": 258, "task": "place pepsi can into middle drawer"}
+{"task_index": 259, "task": "move green can near pepsi can"}
+{"task_index": 260, "task": "pick coke can from bottom drawer and place on counter"}
+{"task_index": 261, "task": "place redbull can into bottom drawer"}
+{"task_index": 262, "task": "pick water bottle from top drawer and place on counter"}
+{"task_index": 263, "task": "pick coke can from middle shelf of fridge"}
+{"task_index": 264, "task": "move water bottle near blue chip bag"}
+{"task_index": 265, "task": "move rxbar chocolate near orange"}
+{"task_index": 266, "task": "move blue chip bag near orange can"}
+{"task_index": 267, "task": "move blue chip bag near rxbar blueberry"}
+{"task_index": 268, "task": "place pepsi can into top drawer"}
+{"task_index": 269, "task": "move 7up can near redbull can"}
+{"task_index": 270, "task": "place sponge into top drawer"}
+{"task_index": 271, "task": "pick green can from middle shelf of fridge"}
+{"task_index": 272, "task": "move blue plastic bottle near orange can"}
+{"task_index": 273, "task": "place blue plastic bottle into top drawer"}
+{"task_index": 274, "task": "move rxbar chocolate near 7up can"}
+{"task_index": 275, "task": "move 7up can near orange can"}
+{"task_index": 276, "task": "move blue plastic bottle near water bottle"}
+{"task_index": 277, "task": "move apple near rxbar chocolate"}
+{"task_index": 278, "task": "pick orange from bottom drawer and place on counter"}
+{"task_index": 279, "task": "move blue chip bag near apple"}
+{"task_index": 280, "task": "move coke can near paper bowl"}
+{"task_index": 281, "task": "pick orange can from bottom shelf of fridge"}
+{"task_index": 282, "task": "move coke can near rxbar chocolate"}
+{"task_index": 283, "task": "move orange near pepsi can"}
+{"task_index": 284, "task": "close left fridge door"}
+{"task_index": 285, "task": "move pepsi can near coke can"}
+{"task_index": 286, "task": "move green rice chip bag near 7up can"}
+{"task_index": 287, "task": "move green can near white bowl"}
+{"task_index": 288, "task": "move coke can near brown chip bag"}
+{"task_index": 289, "task": "move green can near orange can"}
+{"task_index": 290, "task": "move water bottle near redbull can"}
+{"task_index": 291, "task": "move orange can near green rice chip bag"}
+{"task_index": 292, "task": "move brown chip bag near redbull can"}
+{"task_index": 293, "task": "move sponge near water bottle"}
+{"task_index": 294, "task": "move pepsi can near green rice chip bag"}
+{"task_index": 295, "task": "move sponge near rxbar blueberry"}
+{"task_index": 296, "task": "move green jalapeno chip bag near apple"}
+{"task_index": 297, "task": "move rxbar chocolate near rxbar blueberry"}
+{"task_index": 298, "task": "move water bottle near green rice chip bag"}
+{"task_index": 299, "task": "place blue chip bag into bottom drawer"}
+{"task_index": 300, "task": "place green jalapeno chip bag into paper bowl"}
+{"task_index": 301, "task": "place apple into paper bowl"}
+{"task_index": 302, "task": "move apple near green jalapeno chip bag"}
+{"task_index": 303, "task": "move blue chip bag near sponge"}
+{"task_index": 304, "task": "move sponge near orange"}
+{"task_index": 305, "task": "move redbull can near green jalapeno chip bag"}
+{"task_index": 306, "task": "move 7up can near rxbar chocolate"}
+{"task_index": 307, "task": "move rxbar blueberry near 7up can"}
+{"task_index": 308, "task": "move coke can near green can"}
+{"task_index": 309, "task": "move rxbar blueberry near green rice chip bag"}
+{"task_index": 310, "task": "move blue chip bag near blue plastic bottle"}
+{"task_index": 311, "task": "move sponge near pepsi can"}
+{"task_index": 312, "task": "move pepsi can near rxbar chocolate"}
+{"task_index": 313, "task": "move rxbar chocolate near orange can"}
+{"task_index": 314, "task": "move apple near orange"}
+{"task_index": 315, "task": "pick rxbar blueberry from bottom drawer and place on counter"}
+{"task_index": 316, "task": "move apple near 7up can"}
+{"task_index": 317, "task": "pick blue chip bag from middle drawer and place on counter"}
+{"task_index": 318, "task": "move rxbar blueberry near apple"}
+{"task_index": 319, "task": "move blue plastic bottle near coke can"}
+{"task_index": 320, "task": "pick apple from paper bowl and place on counter"}
+{"task_index": 321, "task": "move 7up can near coke can"}
+{"task_index": 322, "task": "move blue chip bag near green jalapeno chip bag"}
+{"task_index": 323, "task": "move sponge near rxbar chocolate"}
+{"task_index": 324, "task": "move rxbar chocolate near apple"}
+{"task_index": 325, "task": "pick redbull can from middle shelf of fridge"}
+{"task_index": 326, "task": "pick orange can from top shelf of fridge"}
+{"task_index": 327, "task": "move redbull can near orange"}
+{"task_index": 328, "task": "move orange can near brown chip bag"}
+{"task_index": 329, "task": "place rxbar chocolate into white bowl"}
+{"task_index": 330, "task": "pick redbull can from bottom drawer and place on counter"}
+{"task_index": 331, "task": "place green can into bottom drawer"}
+{"task_index": 332, "task": "pick redbull can from middle drawer and place on counter"}
+{"task_index": 333, "task": "move green rice chip bag near green jalapeno chip bag"}
+{"task_index": 334, "task": "pick blue plastic bottle from bottom drawer and place on counter"}
+{"task_index": 335, "task": "move rxbar chocolate near blue chip bag"}
+{"task_index": 336, "task": "move orange can near rxbar chocolate"}
+{"task_index": 337, "task": "move blue plastic bottle near pepsi can"}
+{"task_index": 338, "task": "move blue chip bag near coke can"}
+{"task_index": 339, "task": "move water bottle near sponge"}
+{"task_index": 340, "task": "place green jalapeno chip bag into bottom drawer"}
+{"task_index": 341, "task": "pick green rice chip bag from middle drawer and place on counter"}
+{"task_index": 342, "task": "move green jalapeno chip bag near rxbar blueberry"}
+{"task_index": 343, "task": "move blue chip bag near orange"}
+{"task_index": 344, "task": "place blue chip bag into paper bowl"}
+{"task_index": 345, "task": "move apple near water bottle"}
+{"task_index": 346, "task": "move pepsi can near brown chip bag"}
+{"task_index": 347, "task": "move pepsi can near redbull can"}
+{"task_index": 348, "task": "move green jalapeno chip bag near green can"}
+{"task_index": 349, "task": "move coke can near green jalapeno chip bag"}
+{"task_index": 350, "task": "move sponge near coke can"}
+{"task_index": 351, "task": "move brown chip bag near orange can"}
+{"task_index": 352, "task": "move coke can near orange can"}
+{"task_index": 353, "task": "move blue plastic bottle near green jalapeno chip bag"}
+{"task_index": 354, "task": "move 7up can near green can"}
+{"task_index": 355, "task": "move brown chip bag near sponge"}
+{"task_index": 356, "task": "move 7up can near brown chip bag"}
+{"task_index": 357, "task": "move redbull can near brown chip bag"}
+{"task_index": 358, "task": "place rxbar chocolate into top drawer"}
+{"task_index": 359, "task": "move orange near water bottle"}
+{"task_index": 360, "task": "pick pepsi can from bottom shelf of fridge"}
+{"task_index": 361, "task": "move sponge near green jalapeno chip bag"}
+{"task_index": 362, "task": "move green jalapeno chip bag near white bowl"}
+{"task_index": 363, "task": "place sponge into bottom drawer"}
+{"task_index": 364, "task": "pick sponge from bottom drawer and place on counter"}
+{"task_index": 365, "task": "move white bowl near green rice chip bag"}
+{"task_index": 366, "task": "move 7up can near pepsi can"}
+{"task_index": 367, "task": "move green jalapeno chip bag near brown chip bag"}
+{"task_index": 368, "task": "move rxbar chocolate near white bowl"}
+{"task_index": 369, "task": "pick 7up can can from top shelf of fridge"}
+{"task_index": 370, "task": "move redbull can near apple"}
+{"task_index": 371, "task": "move 7up can near green rice chip bag"}
+{"task_index": 372, "task": "move orange can near blue chip bag"}
+{"task_index": 373, "task": "move apple near green rice chip bag"}
+{"task_index": 374, "task": "pick blue plastic bottle from top shelf of fridge"}
+{"task_index": 375, "task": "move green jalapeno chip bag near paper bowl"}
+{"task_index": 376, "task": "move green can near paper bowl"}
+{"task_index": 377, "task": "move rxbar chocolate near brown chip bag"}
+{"task_index": 378, "task": "move green jalapeno chip bag near blue plastic bottle"}
+{"task_index": 379, "task": "move rxbar blueberry near blue chip bag"}
+{"task_index": 380, "task": "move blue chip bag near brown chip bag"}
+{"task_index": 381, "task": "place sponge into paper bowl"}
+{"task_index": 382, "task": "move sponge near blue chip bag"}
+{"task_index": 383, "task": "move brown chip bag near apple"}
+{"task_index": 384, "task": "place water bottle into paper bowl"}
+{"task_index": 385, "task": "move blue chip bag near green can"}
+{"task_index": 386, "task": "move apple near redbull can"}
+{"task_index": 387, "task": "move green can near brown chip bag"}
+{"task_index": 388, "task": "move orange can near white bowl"}
+{"task_index": 389, "task": "move brown chip bag near paper bowl"}
+{"task_index": 390, "task": "move blue chip bag near green rice chip bag"}
+{"task_index": 391, "task": "move coke can near redbull can"}
+{"task_index": 392, "task": "move 7up can near orange"}
+{"task_index": 393, "task": "place blue chip bag into white bowl"}
+{"task_index": 394, "task": "move white bowl near redbull can"}
+{"task_index": 395, "task": "move brown chip bag near rxbar blueberry"}
+{"task_index": 396, "task": "move rxbar blueberry near water bottle"}
+{"task_index": 397, "task": "move rxbar blueberry near rxbar chocolate"}
+{"task_index": 398, "task": "move green jalapeno chip bag near orange"}
+{"task_index": 399, "task": "move apple near blue plastic bottle"}
+{"task_index": 400, "task": "move water bottle near rxbar blueberry"}
+{"task_index": 401, "task": "move blue chip bag near redbull can"}
+{"task_index": 402, "task": "move blue plastic bottle near apple"}
+{"task_index": 403, "task": "move brown chip bag near green can"}
+{"task_index": 404, "task": "move orange near sponge"}
+{"task_index": 405, "task": "pick water bottle from middle shelf of fridge "}
+{"task_index": 406, "task": "move orange near blue chip bag"}
+{"task_index": 407, "task": "move 7up can near sponge"}
+{"task_index": 408, "task": "pick redbull can from top drawer and place on counter"}
+{"task_index": 409, "task": "move brown chip bag near water bottle"}
+{"task_index": 410, "task": "move apple near brown chip bag"}
+{"task_index": 411, "task": "place water bottle into white bowl"}
+{"task_index": 412, "task": "move apple near orange can"}
+{"task_index": 413, "task": "move 7up can near rxbar blueberry"}
+{"task_index": 414, "task": "move brown chip bag near coke can"}
+{"task_index": 415, "task": "move green jalapeno chip bag near blue chip bag"}
+{"task_index": 416, "task": "pick 7up can from middle shelf of fridge"}
+{"task_index": 417, "task": "move redbull can near coke can"}
+{"task_index": 418, "task": "move redbull can near rxbar chocolate"}
+{"task_index": 419, "task": "move brown chip bag near 7up can"}
+{"task_index": 420, "task": "move green rice chip bag near green can"}
+{"task_index": 421, "task": "pick pepsi can from middle shelf of fridge"}
+{"task_index": 422, "task": "move redbull can near water bottle"}
+{"task_index": 423, "task": "move pepsi can near rxbar blueberry"}
+{"task_index": 424, "task": "move green can near blue plastic bottle"}
+{"task_index": 425, "task": "move paper bowl near redbull can"}
+{"task_index": 426, "task": "move redbull can near paper bowl"}
+{"task_index": 427, "task": "move rxbar chocolate near pepsi can"}
+{"task_index": 428, "task": "move rxbar blueberry near pepsi can"}
+{"task_index": 429, "task": "move green jalapeno chip bag near redbull can"}
+{"task_index": 430, "task": "move rxbar blueberry near coke can"}
+{"task_index": 431, "task": "move orange near apple"}
+{"task_index": 432, "task": "move water bottle near brown chip bag"}
+{"task_index": 433, "task": "move 7up can near blue chip bag"}
+{"task_index": 434, "task": "move water bottle near pepsi can"}
+{"task_index": 435, "task": "pick coke can from top drawer and place on counter"}
+{"task_index": 436, "task": "move green can near green jalapeno chip bag"}
+{"task_index": 437, "task": "move green can near redbull can"}
+{"task_index": 438, "task": "move water bottle near blue plastic bottle"}
+{"task_index": 439, "task": "move green rice chip bag near white bowl"}
+{"task_index": 440, "task": "move orange can near pepsi can"}
+{"task_index": 441, "task": "move water bottle near apple"}
+{"task_index": 442, "task": "pick blue plastic bottle from bottom shelf of fridge"}
+{"task_index": 443, "task": "move orange can near sponge"}
+{"task_index": 444, "task": "pick green can from top drawer and place on counter"}
+{"task_index": 445, "task": "move apple near paper bowl"}
+{"task_index": 446, "task": "move water bottle near orange can"}
+{"task_index": 447, "task": "pick water bottle from bottom shelf of fridge"}
+{"task_index": 448, "task": "move white bowl near apple"}
+{"task_index": 449, "task": "move green rice chip bag near pepsi can"}
+{"task_index": 450, "task": "move brown chip bag near pepsi can"}
+{"task_index": 451, "task": "move rxbar chocolate near green can"}
+{"task_index": 452, "task": "move rxbar chocolate near green rice chip bag"}
+{"task_index": 453, "task": "move orange can near water bottle"}
+{"task_index": 454, "task": "move white bowl near sponge"}
+{"task_index": 455, "task": "place rxbar blueberry into white bowl"}
+{"task_index": 456, "task": "pick redbull can from top shelf of fridge"}
+{"task_index": 457, "task": "move coke can near rxbar blueberry"}
+{"task_index": 458, "task": "move redbull can near sponge"}
+{"task_index": 459, "task": "move coke can near apple"}
+{"task_index": 460, "task": "move green can near green rice chip bag"}
+{"task_index": 461, "task": "move green can near rxbar chocolate"}
+{"task_index": 462, "task": "place 7up can into bottom drawer"}
+{"task_index": 463, "task": "move brown chip bag near orange"}
+{"task_index": 464, "task": "move water bottle near green can"}
+{"task_index": 465, "task": "move green jalapeno chip bag near orange can"}
+{"task_index": 466, "task": "move paper bowl near blue plastic bottle"}
+{"task_index": 467, "task": "move redbull can near rxbar blueberry"}
+{"task_index": 468, "task": "place brown chip bag into white bowl"}
+{"task_index": 469, "task": "pick blue plastic bottle from middle shelf of fridge"}
+{"task_index": 470, "task": "pick water bottle from top shelf of fridge "}
+{"task_index": 471, "task": "pick rxbar blueberry from white bowl and place on counter"}
+{"task_index": 472, "task": "move paper bowl near rxbar chocolate"}
+{"task_index": 473, "task": "move orange can near green jalapeno chip bag"}
+{"task_index": 474, "task": "move green jalapeno chip bag near 7up can"}
+{"task_index": 475, "task": "move pepsi can near green can"}
+{"task_index": 476, "task": "move blue chip bag near paper bowl"}
+{"task_index": 477, "task": "place apple into white bowl"}
+{"task_index": 478, "task": "pick blue plastic bottle from white bowl and place on counter"}
+{"task_index": 479, "task": "move green can near coke can"}
+{"task_index": 480, "task": "move blue plastic bottle near green can"}
+{"task_index": 481, "task": "move orange near coke can"}
+{"task_index": 482, "task": "move orange can near blue plastic bottle"}
+{"task_index": 483, "task": "move orange can near redbull can"}
+{"task_index": 484, "task": "move pepsi can near blue chip bag"}
+{"task_index": 485, "task": "move brown chip bag near blue plastic bottle"}
+{"task_index": 486, "task": "pick rxbar chocolate from white bowl and place on counter"}
+{"task_index": 487, "task": "move white bowl near rxbar chocolate"}
+{"task_index": 488, "task": "move green can near 7up can"}
+{"task_index": 489, "task": "move white bowl near blue chip bag"}
+{"task_index": 490, "task": "move paper bowl near green jalapeno chip bag"}
+{"task_index": 491, "task": "move orange can near apple"}
+{"task_index": 492, "task": "place coke can into paper bowl"}
+{"task_index": 493, "task": "place blue plastic bottle into paper bowl"}
+{"task_index": 494, "task": "place orange can into paper bowl"}
+{"task_index": 495, "task": "place redbull can into white bowl"}
+{"task_index": 496, "task": "move paper bowl near 7up can"}
+{"task_index": 497, "task": "move paper bowl near rxbar blueberry"}
+{"task_index": 498, "task": "move paper bowl near blue chip bag"}
+{"task_index": 499, "task": "move sponge near paper bowl"}
+{"task_index": 500, "task": "pick blue chip bag from paper bowl and place on counter"}
+{"task_index": 501, "task": "move 7up can near water bottle"}
+{"task_index": 502, "task": "pick green can from paper bowl and place on counter"}
+{"task_index": 503, "task": "place orange into paper bowl"}
+{"task_index": 504, "task": "move water bottle near white bowl"}
+{"task_index": 505, "task": "move rxbar chocolate near paper bowl"}
+{"task_index": 506, "task": "move paper bowl near apple"}
+{"task_index": 507, "task": "pick green rice chip bag from white bowl and place on counter"}
+{"task_index": 508, "task": "move 7up can near blue plastic bottle"}
+{"task_index": 509, "task": "move white bowl near green can"}
+{"task_index": 510, "task": "move 7up can near white bowl"}
+{"task_index": 511, "task": "pick redbull can from white bowl and place on counter"}
+{"task_index": 512, "task": "move white bowl near brown chip bag"}
+{"task_index": 513, "task": "pick 7up can from white bowl and place on counter"}
+{"task_index": 514, "task": "place orange can into white bowl"}
+{"task_index": 515, "task": "place green can into middle drawer"}
+{"task_index": 516, "task": "move coke can near sponge"}
+{"task_index": 517, "task": "pick green jalapeno chip bag from white bowl and place on counter"}
+{"task_index": 518, "task": "pick sponge from white bowl and place on counter"}
+{"task_index": 519, "task": "move redbull can near orange can"}
+{"task_index": 520, "task": "pick water bottle from paper bowl and place on counter"}
+{"task_index": 521, "task": "pick blue plastic bottle from top shelf of fridge "}
+{"task_index": 522, "task": "pick 7up can from paper bowl and place on counter"}
+{"task_index": 523, "task": "pick pepsi can from paper bowl and place on counter"}
+{"task_index": 524, "task": "place brown chip bag into top drawer"}
+{"task_index": 525, "task": "place orange into white bowl"}
+{"task_index": 526, "task": "move green rice chip bag near paper bowl"}
+{"task_index": 527, "task": "move white bowl near pepsi can"}
+{"task_index": 528, "task": "place green jalapeno chip bag into white bowl"}
+{"task_index": 529, "task": "pick orange can from middle shelf of fridge "}
+{"task_index": 530, "task": "place pepsi can into paper bowl"}
+{"task_index": 531, "task": "pick green rice chip bag from paper bowl and place on counter"}
+{"task_index": 532, "task": "pick coke can from paper bowl and place on counter"}
+{"task_index": 533, "task": "move sponge near white bowl"}
+{"task_index": 534, "task": "pick pepsi can from white bowl and place on counter"}
+{"task_index": 535, "task": "move blue chip bag near white bowl"}
+{"task_index": 536, "task": "move brown chip bag near white bowl"}
+{"task_index": 537, "task": "pick green jalapeno chip bag from paper bowl and place on counter"}
+{"task_index": 538, "task": "pick orange from paper bowl and place on counter"}
+{"task_index": 539, "task": " pick pepsi can from bottom shelf of fridge"}
+{"task_index": 540, "task": "move white bowl near rxbar blueberry"}
+{"task_index": 541, "task": "move redbull can near white bowl"}
+{"task_index": 542, "task": "pick green can from white bowl and place on counter"}
+{"task_index": 543, "task": "pick apple from white bowl and place on counter"}
+{"task_index": 544, "task": "pick 7up can can from bottom shelf of fridge"}
+{"task_index": 545, "task": "move paper bowl near green can"}
+{"task_index": 546, "task": "place green can into paper bowl"}
+{"task_index": 547, "task": "move paper bowl near green rice chip bag"}
+{"task_index": 548, "task": " pick coke can from top shelf of fridge "}
+{"task_index": 549, "task": "place rxbar blueberry into paper bowl"}
+{"task_index": 550, "task": "place green can into white bowl"}
+{"task_index": 551, "task": "move coke can near white bowl"}
+{"task_index": 552, "task": "place 7up can into paper bowl"}
+{"task_index": 553, "task": "move white bowl near green jalapeno chip bag"}
+{"task_index": 554, "task": "move orange near white bowl"}
+{"task_index": 555, "task": "pick green can from middle shelf of fridge "}
+{"task_index": 556, "task": "move rxbar blueberry near white bowl"}
+{"task_index": 557, "task": "move rxbar blueberry near paper bowl"}
+{"task_index": 558, "task": "pick redbull can from paper bowl and place on counter"}
+{"task_index": 559, "task": "move paper bowl near sponge"}
+{"task_index": 560, "task": "pick pepsi can from top shelf of fridge "}
+{"task_index": 561, "task": "place redbull can into paper bowl"}
+{"task_index": 562, "task": "pick redbull can from middle shelf of fridge "}
+{"task_index": 563, "task": "place rxbar chocolate into paper bowl"}
+{"task_index": 564, "task": "pick orange can from white bowl and place on counter"}
+{"task_index": 565, "task": "pick brown chip bag from white bowl and place on counter"}
+{"task_index": 566, "task": "move 7up can near paper bowl"}
+{"task_index": 567, "task": "place green rice chip bag into white bowl"}
+{"task_index": 568, "task": "pick rxbar chocolate from paper bowl and place on counter"}
+{"task_index": 569, "task": "place sponge into white bowl"}
+{"task_index": 570, "task": "move paper bowl near water bottle"}
+{"task_index": 571, "task": "pick coke can from white bowl and place on counter"}
+{"task_index": 572, "task": " pick green can from bottom shelf of fridge"}
+{"task_index": 573, "task": "place green rice chip bag into paper bowl"}
+{"task_index": 574, "task": "pick orange from white bowl and place on counter"}
+{"task_index": 575, "task": " pick green can from bottom shelf of fridge "}
+{"task_index": 576, "task": "move orange can near paper bowl"}
+{"task_index": 577, "task": ""}
+{"task_index": 578, "task": "pick blue plastic bottle from paper bowl and place on counter"}
+{"task_index": 579, "task": "pick orange can from bottom shelf of fridge "}
+{"task_index": 580, "task": "pick 7up can can from middle shelf of fridge"}
+{"task_index": 581, "task": "pick 7up can from top shelf of fridge "}
+{"task_index": 582, "task": "move paper bowl near brown chip bag"}
+{"task_index": 583, "task": "pick rxbar blueberry from paper bowl and place on counter"}
+{"task_index": 584, "task": "move white bowl near coke can"}
+{"task_index": 585, "task": "move white bowl near blue plastic bottle"}
+{"task_index": 586, "task": "move pepsi can near white bowl"}
+{"task_index": 587, "task": "pick orange can from paper bowl and place on counter"}
+{"task_index": 588, "task": "move white bowl near 7up can"}
+{"task_index": 589, "task": "pick blue plastic bottle from middle shelf of fridge "}
+{"task_index": 590, "task": "pick coke can from middle shelf of fridge "}
+{"task_index": 591, "task": "pick sponge from paper bowl and place on counter"}
+{"task_index": 592, "task": "move paper bowl near orange"}
+{"task_index": 593, "task": "move pepsi can near paper bowl"}
+{"task_index": 594, "task": "pick green can from top shelf of fridge "}
+{"task_index": 595, "task": "move white bowl near orange can"}
+{"task_index": 596, "task": "pick pepsi can from middle shelf of fridge "}
+{"task_index": 597, "task": "pick 7up can from top shelf of fridge'"}
+{"task_index": 598, "task": "pick 7up can from middle shelf of fridge "}

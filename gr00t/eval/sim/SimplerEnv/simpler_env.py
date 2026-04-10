@@ -63,7 +63,12 @@ class GoogleFractalEnv(gym.Env):
         self.sticky_action_is_on = False
         self.sticky_gripper_action = 0.0
         self.gripper_action_repeat = 0
-        observation, info = self.env.reset()
+        reset_kwargs = {}
+        if seed is not None:
+            reset_kwargs["seed"] = seed
+        if options is not None:
+            reset_kwargs["options"] = options
+        observation, info = self.env.reset(**reset_kwargs)
         observation = self._process_observation(observation)
         info["success"] = False
         return observation, info
@@ -104,10 +109,11 @@ class GoogleFractalEnv(gym.Env):
             "annotation.human.action.task_description": self.env.unwrapped.get_language_instruction(),
         }
 
-    def _postprocess_gripper(self, current_gripper_action: float) -> float:
+    def _postprocess_gripper(self, current_gripper_action) -> np.ndarray:
+        current_gripper_action = float(np.asarray(current_gripper_action).flat[0])
         current_gripper_action = (current_gripper_action * 2) - 1  # [0,1] -> [-1,1]
         relative_gripper_action = -current_gripper_action
-        if np.abs(relative_gripper_action) > 0.5 and self.sticky_action_is_on is False:
+        if abs(relative_gripper_action) > 0.5 and self.sticky_action_is_on is False:
             self.sticky_action_is_on = True
             self.sticky_gripper_action = relative_gripper_action
         if self.sticky_action_is_on:
@@ -117,7 +123,7 @@ class GoogleFractalEnv(gym.Env):
             self.sticky_action_is_on = False
             self.gripper_action_repeat = 0
             self.sticky_gripper_action = 0.0
-        return relative_gripper_action
+        return np.atleast_1d(relative_gripper_action)
 
 
 class WidowXBridgeEnv(gym.Env):
@@ -166,7 +172,12 @@ class WidowXBridgeEnv(gym.Env):
         self.default_rot = np.array([[0, 0, 1.0], [0, 1.0, 0], [-1.0, 0, 0]])
 
     def reset(self, seed=None, options=None):
-        observation, info = self.env.reset()
+        reset_kwargs = {}
+        if seed is not None:
+            reset_kwargs["seed"] = seed
+        if options is not None:
+            reset_kwargs["options"] = options
+        observation, info = self.env.reset(**reset_kwargs)
         observation = self._process_observation(observation)
         info["success"] = False
         return observation, info

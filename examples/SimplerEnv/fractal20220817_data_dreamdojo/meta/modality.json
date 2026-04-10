@@ -1,0 +1,52 @@
+{
+  "state": {
+    "eef_pos": {
+      "original_key": "observation.state",
+      "start": 0,
+      "end": 3,
+      "rotation_type": null,
+      "absolute": true,
+      "dtype": "float64",
+      "range": null
+    },
+    "eef_quat": {
+      "original_key": "observation.state",
+      "start": 3,
+      "end": 7,
+      "rotation_type": "quaternion_xyzw",
+      "absolute": true,
+      "dtype": "float64",
+      "range": null
+    },
+    "gripper": {
+      "original_key": "observation.state",
+      "start": 7,
+      "end": 8,
+      "rotation_type": null,
+      "absolute": true,
+      "dtype": "float64",
+      "range": null
+    }
+  },
+  "action": {
+    "arm": {
+      "original_key": "action",
+      "start": 0,
+      "end": 7,
+      "rotation_type": null,
+      "absolute": true,
+      "dtype": "float64",
+      "range": null
+    }
+  },
+  "video": {
+    "image": {
+      "original_key": "observation.images.image"
+    }
+  },
+  "annotation": {
+    "language.task": {
+      "original_key": "task_index"
+    }
+  }
+}
