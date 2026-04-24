@@ -79,7 +79,6 @@ GOOGLE_FRACTAL_TASKS = [
     "google_robot_move_near",
     "google_robot_open_drawer",
     "google_robot_close_drawer",
-    "google_robot_place_in_closed_drawer",
 ]
 
 WIDOWX_BRIDGE_TASKS = [

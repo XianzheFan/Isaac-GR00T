@@ -1,8 +1,5 @@
 # Default platform pyproject.toml (x86, GB200, and any non-Jetson GPU)
 
-[tool.uv.workspace]
-members = ["groot_infra"]
-
 [build-system]
 requires = ["setuptools>=67", "wheel", "pip"]
 build-backend = "setuptools.build_meta"
@@ -44,7 +41,7 @@ dependencies = [
     "deepspeed==0.17.6; platform_machine != 'aarch64' or sys_platform != 'linux'",
     # triton is needed on aarch64 (GB200) but ships with torch on x86_64
     "triton==3.3.1; sys_platform == 'linux' and platform_machine == 'aarch64'",
-    "flash-attn==2.7.4.post1",
+    "flash-attn==2.8.3",
     "onnx>=1.20.0",
     "tensorrt>=10.14.1.48.post1",
 ]
@@ -72,7 +69,7 @@ triton = [
     { index = "pytorch-cu128", marker = "sys_platform == 'linux' and (platform_machine == 'aarch64')" },
 ]
 flash-attn = [
-    { url = "https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu12torch2.7cxx11abiFALSE-cp310-cp310-linux_x86_64.whl", marker = "sys_platform == 'linux' and platform_machine == 'x86_64'" },
+    { url = "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3/flash_attn-2.8.3+cu12torch2.7cxx11abiTRUE-cp312-cp312-linux_x86_64.whl", marker = "sys_platform == 'linux' and platform_machine == 'x86_64'" },
 ]
 
 [tool.uv.extra-build-dependencies]

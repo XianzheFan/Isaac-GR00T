@@ -173,3 +173,9 @@ offline_open_loop_eval_plots/
 *.parquet
 *.mp4
 .history/
+
+# Model checkpoints / compiled caches / misc runtime artifacts
+/checkpoints/
+/unsloth_compiled_cache/
+nohup.out
+=*
