@@ -1,4 +1,4 @@
-"""SDE (Stochastic Differential Equation) variant of the Gr00tN1d6 action head.
+"""SDE (Stochastic Differential Equation) variant of the Gr00tN1d7 action head.
 
 Replaces the deterministic Euler ODE solver with an Euler-Maruyama SDE solver
 for flow matching inference. The training objective is identical; only the
@@ -15,11 +15,11 @@ import math
 import torch
 from transformers.feature_extraction_utils import BatchFeature
 
-from gr00t.configs.model.gr00t_n1d6_sde import Gr00tN1d6SDEConfig
+from gr00t.configs.model.gr00t_n1d7_sde import Gr00tN1d7SDEConfig
 from gr00t.model.gr00t_n1d7.gr00t_n1d7 import Gr00tN1d7ActionHead
 
 
-class Gr00tN1d6SDEActionHead(Gr00tN1d7ActionHead):
+class Gr00tN1d7SDEActionHead(Gr00tN1d7ActionHead):
     """Action head with SDE sampling for flow matching inference.
 
     Inherits all architecture and training from the base action head.
@@ -27,7 +27,7 @@ class Gr00tN1d6SDEActionHead(Gr00tN1d7ActionHead):
     with time-dependent stochastic noise injection.
     """
 
-    def __init__(self, config: Gr00tN1d6SDEConfig):
+    def __init__(self, config: Gr00tN1d7SDEConfig):
         super().__init__(config)
         self.noise_level = config.noise_level
 

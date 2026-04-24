@@ -27,7 +27,7 @@ Usage patterns
 2. Standalone eval (replaces Gemini value scoring with trained switch head):
 
     python switch_head_inference.py eval \
-        --model_path nvidia/GR00T-N1.6-3B \
+        --model_path nvidia/GR00T-N1.7-3B \
         --switch_head_ckpt checkpoints/switch_head/best_model.pt \
         --robot_type google \
         --dd_base_port 8020
@@ -311,7 +311,7 @@ def eval_with_switch_head(args):
     import imageio
     import tqdm
     from gr00t.data.embodiment_tags import EmbodimentTag
-    from gr00t.model.gr00t_n1d7.gr00t_n1d6_sde import Gr00tN1d6SDEActionHead
+    from gr00t.model.gr00t_n1d7.gr00t_n1d7_sde import Gr00tN1d7SDEActionHead
     from gr00t.policy.gr00t_policy import Gr00tPolicy, Gr00tSimPolicyWrapper
 
     np.random.seed(args.seed)
@@ -353,7 +353,7 @@ def eval_with_switch_head(args):
     sde_config = base_policy.model.config
     sde_config.noise_level = args.noise_level
     sde_config.noise_method = "flow_sde"
-    sde_action_head = Gr00tN1d6SDEActionHead(sde_config)
+    sde_action_head = Gr00tN1d7SDEActionHead(sde_config)
     sde_action_head.load_state_dict(ode_action_head.state_dict())
     sde_action_head.to(device=args.device, dtype=torch.bfloat16)
     sde_action_head.eval()
@@ -677,7 +677,7 @@ def main():
     # -- eval --
     p_eval = subparsers.add_parser("eval", help="Eval SimplerEnv with switch head rescue")
     _add_switch_args(p_eval)
-    p_eval.add_argument("--model_path", type=str, default="nvidia/GR00T-N1.6-3B")
+    p_eval.add_argument("--model_path", type=str, default="nvidia/GR00T-N1.7-3B")
     p_eval.add_argument("--robot_type", type=str, default="google",
                         choices=["google", "widowx"])
     p_eval.add_argument("--num_trials_per_task", type=int, default=20)

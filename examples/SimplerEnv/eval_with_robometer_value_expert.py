@@ -30,7 +30,7 @@ Prerequisites:
 Usage:
   # 1) Eval + collect training data (needs DreamDojo + Robometer)
   python examples/SimplerEnv/eval_with_robometer_value_expert.py eval \\
-      --model_path nvidia/GR00T-N1.6-3B \\
+      --model_path nvidia/GR00T-N1.7-3B \\
       --robot_type google \\
       --dd_base_port 8020 \\
       --robometer_model_path aliangdw/qwen4b_pref_prog_succ_8_frames_all_part2 \\
@@ -91,7 +91,7 @@ from robometer.utils.setup_utils import setup_batch_collator
 
 # GR00T imports
 from gr00t.data.embodiment_tags import EmbodimentTag
-from gr00t.model.gr00t_n1d7.gr00t_n1d6_sde import Gr00tN1d6SDEActionHead
+from gr00t.model.gr00t_n1d7.gr00t_n1d7_sde import Gr00tN1d7SDEActionHead
 from gr00t.policy.gr00t_policy import Gr00tPolicy, Gr00tSimPolicyWrapper
 
 
@@ -924,7 +924,7 @@ def eval_simpler_env(args):
     sde_config = base_policy.model.config
     sde_config.noise_level = args.noise_level
     sde_config.noise_method = "flow_sde"
-    sde_action_head = Gr00tN1d6SDEActionHead(sde_config)
+    sde_action_head = Gr00tN1d7SDEActionHead(sde_config)
     sde_action_head.load_state_dict(ode_action_head.state_dict())
     sde_action_head.to(device=args.device, dtype=torch.bfloat16)
     sde_action_head.eval()
@@ -1436,7 +1436,7 @@ def main():
     p_eval = subparsers.add_parser(
         "eval", help="Run SimplerEnv eval with Robometer scoring",
     )
-    p_eval.add_argument("--model_path", type=str, default="nvidia/GR00T-N1.6-3B")
+    p_eval.add_argument("--model_path", type=str, default="nvidia/GR00T-N1.7-3B")
     p_eval.add_argument("--device", type=int, default=0)
     p_eval.add_argument("--noise_level", type=float, default=0.3)
     p_eval.add_argument("--action_horizon", type=int, default=1)

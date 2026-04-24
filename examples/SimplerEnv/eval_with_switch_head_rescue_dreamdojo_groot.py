@@ -20,14 +20,14 @@ Usage:
 
     # With DreamDojo candidate selection (recommended)
     python eval_with_switch_head_rescue_dreamdojo_groot.py \
-        --model_path nvidia/GR00T-N1.6-3B \
+        --model_path nvidia/GR00T-N1.7-3B \
         --switch_head_ckpt checkpoints/switch_head/best_model.pt \
         --robot_type google \
         --dd_base_port 8020
 
     # Without DreamDojo (SDE resampling only — no GOOGLE_API_KEY needed)
     python eval_with_switch_head_rescue_dreamdojo_groot.py \
-        --model_path nvidia/GR00T-N1.6-3B \
+        --model_path nvidia/GR00T-N1.7-3B \
         --switch_head_ckpt checkpoints/switch_head/best_model.pt \
         --robot_type google \
         --dd_base_port 0
@@ -48,7 +48,7 @@ import tqdm
 import tyro
 
 from gr00t.data.embodiment_tags import EmbodimentTag
-from gr00t.model.gr00t_n1d7.gr00t_n1d6_sde import Gr00tN1d6SDEActionHead
+from gr00t.model.gr00t_n1d7.gr00t_n1d7_sde import Gr00tN1d7SDEActionHead
 from gr00t.policy.gr00t_policy import Gr00tPolicy, Gr00tSimPolicyWrapper
 
 # Reuse helpers from existing scripts (avoid duplication)
@@ -74,7 +74,7 @@ from switch_head_inference import load_switch_head
 @dataclasses.dataclass
 class Args:
     # -- GR00T policy --
-    model_path: str = "nvidia/GR00T-N1.6-3B"
+    model_path: str = "nvidia/GR00T-N1.7-3B"
     device: int = 0
     noise_level: float = 0.3
     """SDE diffusion noise strength (only used during rescue sampling)."""
@@ -168,7 +168,7 @@ def eval_simpler_env(args: Args) -> None:
     sde_config.noise_method = "flow_sde"
     if args.num_inference_timesteps is not None:
         sde_config.num_inference_timesteps = args.num_inference_timesteps
-    sde_action_head = Gr00tN1d6SDEActionHead(sde_config)
+    sde_action_head = Gr00tN1d7SDEActionHead(sde_config)
     sde_action_head.load_state_dict(ode_action_head.state_dict())
     sde_action_head.to(device=args.device, dtype=torch.bfloat16)
     sde_action_head.eval()

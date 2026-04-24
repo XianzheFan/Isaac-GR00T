@@ -1,6 +1,6 @@
 """
 Same as eval_with_gemini_rescue_dreamdojo.py (openpi / pi0.5), but uses
-GR00T-N1.6 with SDE (Euler-Maruyama) sampling as the policy backbone.
+GR00T-N1.7 with SDE (Euler-Maruyama) sampling as the policy backbone.
 
 GR00T SDE replaces the deterministic Euler ODE denoising loop with a
 stochastic variant, so each call to the policy produces a *different*
@@ -494,7 +494,7 @@ def _write_gemini_results(gemini_results: list, rollout_dir: pathlib.Path,
 
 @dataclasses.dataclass
 class Args:
-    model_path: str = "nvidia/GR00T-N1.6-3B"
+    model_path: str = "nvidia/GR00T-N1.7-3B"
     device: int = 0
     noise_level: float = 0.5
     num_inference_timesteps: int | None = None

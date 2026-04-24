@@ -13,7 +13,7 @@ from transformers import AutoModel, AutoProcessor
 
 from gr00t.data.embodiment_tags import EmbodimentTag
 from gr00t.data.interfaces import BaseProcessor
-from gr00t.model.gr00t_n1d7.gr00t_n1d6_sde import Gr00tN1d6SDEActionHead
+from gr00t.model.gr00t_n1d7.gr00t_n1d7_sde import Gr00tN1d7SDEActionHead
 from gr00t.policy.gr00t_policy import Gr00tPolicy
 
 
@@ -21,7 +21,7 @@ class Gr00tSDEPolicy(Gr00tPolicy):
     """Policy that uses SDE sampling for action generation.
 
     Loads the same pretrained checkpoint as ``Gr00tPolicy``, then replaces
-    the action head with ``Gr00tN1d6SDEActionHead`` which uses Euler-Maruyama
+    the action head with ``Gr00tN1d7SDEActionHead`` which uses Euler-Maruyama
     integration instead of deterministic Euler.
 
     Args:
@@ -63,7 +63,7 @@ class Gr00tSDEPolicy(Gr00tPolicy):
             model.config.num_inference_timesteps = num_inference_timesteps
 
         # Replace the action head with the SDE variant, transferring all weights.
-        sde_action_head = Gr00tN1d6SDEActionHead(model.config)
+        sde_action_head = Gr00tN1d7SDEActionHead(model.config)
         sde_action_head.load_state_dict(model.action_head.state_dict())
         model.action_head = sde_action_head
 

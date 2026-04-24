@@ -28,7 +28,7 @@ fi
 
 "${LAUNCHER[@]}" \
     gr00t/experiment/launch_finetune.py \
-    --base_model_path nvidia/GR00T-N1.6-3B \
+    --base_model_path nvidia/GR00T-N1.7-3B \
     --dataset_path "$DATASET_PATH" \
     --modality_config_path examples/Agilex/agilex_config.py \
     --embodiment_tag NEW_EMBODIMENT \

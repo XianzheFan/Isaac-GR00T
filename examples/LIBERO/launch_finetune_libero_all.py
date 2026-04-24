@@ -72,7 +72,7 @@ config.model.color_jitter_params = {
 }
 
 # Training config
-config.training.start_from_checkpoint = "nvidia/GR00T-N1.6-3B"
+config.training.start_from_checkpoint = "nvidia/GR00T-N1.7-3B"
 config.training.optim = "adamw_torch"
 config.training.global_batch_size = 640
 config.training.dataloader_num_workers = 4
@@ -86,7 +86,7 @@ config.training.use_wandb = True
 config.training.max_steps = 40000
 config.training.weight_decay = 1e-5
 config.training.warmup_ratio = 0.05
-config.training.wandb_project = "finetune-gr00t-n1d6"
+config.training.wandb_project = "finetune-gr00t-n1d7"
 
 # Data config
 config.data.shard_size = 2**10

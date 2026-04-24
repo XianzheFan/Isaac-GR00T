@@ -1228,10 +1228,10 @@ def main():
     p_collect = subparsers.add_parser(
         "collect", help="Run SimplerEnv rollouts with Gemini scoring and save labeled data"
     )
-    p_collect.add_argument("--model_path", type=str, default="nvidia/GR00T-N1.6-fractal",
+    p_collect.add_argument("--model_path", type=str, default="nvidia/GR00T-N1.7-SimplerEnv-Fractal",
                            help="Path to post-trained GR00T checkpoint "
-                           "(e.g. nvidia/GR00T-N1.6-fractal for Google, "
-                           "nvidia/GR00T-N1.6-bridge for WidowX)")
+                           "(e.g. nvidia/GR00T-N1.7-SimplerEnv-Fractal for Google, "
+                           "nvidia/GR00T-N1.7-SimplerEnv-Bridge for WidowX)")
     p_collect.add_argument("--device", type=int, default=0)
     p_collect.add_argument("--action_horizon", type=int, default=1,
                            help="Number of actions to execute per policy query")

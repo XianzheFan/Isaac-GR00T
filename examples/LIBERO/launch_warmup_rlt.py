@@ -1,4 +1,4 @@
-# VLA Warmup + RL Token Training for GR00T-N1.6 on LIBERO.
+# VLA Warmup + RL Token Training for GR00T-N1.7 on LIBERO.
 #
 # Phase 1 of the RLT pipeline (adapted from openpi/scripts/train_rlt.py):
 #   1. Lightweight VLA fine-tune on perturbed_success data (OOD competence)
@@ -273,7 +273,7 @@ class RLTokenModule(nn.Module):
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="VLA Warmup + RL Token Training for GR00T-N1.6"
+        description="VLA Warmup + RL Token Training for GR00T-N1.7"
     )
 
     # Data
@@ -332,7 +332,7 @@ def parse_args():
     parser.add_argument(
         "--checkpoint",
         type=str,
-        default="nvidia/GR00T-N1.6-3B",
+        default="nvidia/GR00T-N1.7-3B",
         help="Base VLA checkpoint to start from.",
     )
 

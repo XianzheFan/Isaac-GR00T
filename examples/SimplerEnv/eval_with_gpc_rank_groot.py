@@ -822,7 +822,7 @@ def _load_gpc_components(
 
 @dataclasses.dataclass
 class Args:
-    model_path: str = "nvidia/GR00T-N1.6-3B"
+    model_path: str = "nvidia/GR00T-N1.7-3B"
     device: int = 0
     action_horizon: int = 8
     """Number of actions to execute per GPC-RANK replan."""
