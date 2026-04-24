@@ -11,6 +11,7 @@ Convention note:
 """
 
 import math
+from typing import Any
 
 import torch
 from transformers.feature_extraction_utils import BatchFeature
@@ -24,7 +25,8 @@ class Gr00tN1d7SDEActionHead(Gr00tN1d7ActionHead):
 
     Inherits all architecture and training from the base action head.
     Only overrides ``get_action_with_features`` to use Euler-Maruyama integration
-    with time-dependent stochastic noise injection.
+    with time-dependent stochastic noise injection. Supports RTC inpainting
+    (``action_input["action"]``) by matching the parent's vel_strength masking.
     """
 
     def __init__(self, config: Gr00tN1d7SDEConfig):
@@ -38,6 +40,8 @@ class Gr00tN1d7SDEActionHead(Gr00tN1d7ActionHead):
         state_features: torch.Tensor,
         embodiment_id: torch.Tensor,
         backbone_output: BatchFeature,
+        action_input: BatchFeature,
+        options: dict[str, Any] | None = None,
     ) -> BatchFeature:
         """Generate actions using the Flow SDE (Euler-Maruyama) diffusion process.
 
@@ -65,6 +69,35 @@ class Gr00tN1d7SDEActionHead(Gr00tN1d7ActionHead):
         )
 
         dt = 1.0 / self.num_inference_timesteps
+        vel_strength = torch.ones_like(actions)
+
+        # RTC inpainting: if previous action chunks are supplied, replace the
+        # overlap prefix with them and suppress drift/diffusion on frozen frames.
+        if "action" in action_input:
+            assert options is not None, "options is not None"
+            assert "action_horizon" in options, "action_horizon is not in options"
+            assert "rtc_overlap_steps" in options, "rtc_overlap_steps is not in options"
+            assert "rtc_frozen_steps" in options, "rtc_frozen_steps is not in options"
+            assert "rtc_ramp_rate" in options, "rtc_ramp_rate is not in options"
+
+            action_horizon_before_padding = options["action_horizon"]
+            actions[:, : options["rtc_overlap_steps"], :] = action_input["action"][
+                :,
+                action_horizon_before_padding
+                - options["rtc_overlap_steps"] : action_horizon_before_padding,
+                :,
+            ]
+            vel_strength[:, : options["rtc_frozen_steps"], :] = 0.0
+            intermediate_steps = options["rtc_overlap_steps"] - options["rtc_frozen_steps"]
+            t_ramp = torch.linspace(0.0, 1.0, intermediate_steps + 2, device=device)
+            ramp = 1 - torch.exp(-options["rtc_ramp_rate"] * t_ramp)
+            ramp = ramp / ramp[-1].clamp_min(1e-8)
+            ramp = ramp[1:-1]
+            vel_strength[
+                :,
+                options["rtc_frozen_steps"] : options["rtc_overlap_steps"],
+                :,
+            ] = ramp[None, :, None].to(device)
 
         for step in range(self.num_inference_timesteps):
             t = step * dt  # current time: 0, dt, 2*dt, ...
@@ -135,8 +168,11 @@ class Gr00tN1d7SDEActionHead(Gr00tN1d7ActionHead):
             x_std = math.sqrt(delta) * sigma_i
 
             # Euler-Maruyama step: deterministic drift + stochastic diffusion.
+            # Express as current + drift so vel_strength can mask frozen frames
+            # (matches parent's ``actions += dt * velocity * vel_strength``).
             z = torch.randn_like(actions)
-            actions = x_mean + x_std * z
+            drift = (x_mean - actions) + x_std * z
+            actions = actions + drift * vel_strength
 
         return BatchFeature(
             data={
