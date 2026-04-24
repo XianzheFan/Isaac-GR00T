@@ -48,7 +48,7 @@ import tqdm
 import tyro
 
 from gr00t.data.embodiment_tags import EmbodimentTag
-from gr00t.model.gr00t_n1d6.gr00t_n1d6_sde import Gr00tN1d6SDEActionHead
+from gr00t.model.gr00t_n1d7.gr00t_n1d6_sde import Gr00tN1d6SDEActionHead
 from gr00t.policy.gr00t_policy import Gr00tPolicy, Gr00tSimPolicyWrapper
 
 # Reuse helpers from existing scripts (avoid duplication)

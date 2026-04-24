@@ -1,11 +1,11 @@
 from dataclasses import dataclass
 
-from gr00t.configs.model.gr00t_n1d6 import Gr00tN1d6Config
+from gr00t.configs.model.gr00t_n1d7 import Gr00tN1d7Config
 from . import register_model_config
 
 
 @dataclass
-class Gr00tN1d6SDEConfig(Gr00tN1d6Config):
+class Gr00tN1d6SDEConfig(Gr00tN1d7Config):
     """Configuration for Gr00tN1d6 with SDE (Stochastic Differential Equation) sampling.
 
     Extends the base config with SDE-specific parameters for Euler-Maruyama inference.
